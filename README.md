@@ -27,10 +27,10 @@ Designed by PSDFreebies.com
 # Install dependencies
 npm install
 
-# Build for development
-npm build
+# Build for production
+npm run build:prod
 
 # Watch for changes
-npm watch
+npm run watch
 
 ```
