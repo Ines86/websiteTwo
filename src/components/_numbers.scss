@@ -1,0 +1,39 @@
+#numbers {
+    padding: 158px 0;
+    background-color: #0082bd;
+    color: #fff;
+    text-align: center;
+    background-image: url("../img/numbers-bg.jpg");
+    background-repeat: no-repeat;
+    min-height: 587px;
+  
+    h2 {
+      font-size: 6rem;
+      font-weight: 500;
+    }
+  
+    h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+  
+    img {
+      margin-bottom: 45px;
+    }
+  
+    .white-line {
+      display: block;
+      width: 84px;
+      height: 7px;
+      background: #fff;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+  }
+
+#numbers .odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
+  display: block;
+}

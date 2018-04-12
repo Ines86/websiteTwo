@@ -1,0 +1,39 @@
+#main-jumbotron {
+    padding: 185px 0;
+    max-height: 636px;
+    background-image: url("../img/jumbotron-bg.jpg");
+    background-position: center;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 0;
+  
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      color: #474747;
+      font-size: 4.7rem;
+      font-weight: bold;
+    }
+  
+    .overlay {
+      margin-left: 37px;
+  
+      .lead {
+        font-size: 1.7rem;
+      }
+  
+      .btn {
+        @include button(1.8rem);
+        padding: 15px 23px;
+        letter-spacing: 1.2px;
+        margin-top: 43px;
+  
+        &:hover {
+          background: #37c3a8;
+        }
+      }
+    }
+  
+    .col-6 {
+      padding: 0;
+    }
+  }

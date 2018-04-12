@@ -1,0 +1,110 @@
+footer {
+    background: #171717;
+    color: #7f7f7f;
+    padding-top: 109px;
+  
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 2.2rem;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 66px;
+    }
+  
+    #contact {
+      font-size: 1.6rem;
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 50px;
+        display: flex;
+  
+        img {
+          margin-right: 44px;
+        }
+      }
+    }
+  
+    #social-icons {
+      margin-bottom: 107px;
+      list-style-type: none;
+      font-size: 29px;
+      color: #fff;
+      padding: 0;
+  
+      li {
+        display: inline-block;
+        padding-right: 30px;
+      }
+  
+      .fa:hover {
+        color: #0082bd;
+        cursor: pointer;
+      }
+    }
+  
+    #quick-links,
+    #our-services {
+      list-style-type: none;
+      font-size: 1.6rem;
+      padding-left: 13px;
+  
+      li {
+        margin-bottom: 18px;
+      }
+  
+      a {
+        color: #7f7f7f;
+      }
+  
+      li:before {
+        font-family: FontAwesome;
+        content: "\f04b";
+        margin-right: 22px;
+        color: #0087be;
+        font-size: 1.2rem;
+      }
+    }
+  
+    #our-services {
+      padding-left: 0;
+    }
+  
+    .form-control {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid grey;
+      font-size: 1.6rem;
+      padding: 0 0 15px 0;
+    }
+  
+    textarea.form-control {
+      padding: 24px 0 76px 0;
+    }
+  
+    input#phone {
+      padding-top: 24px;
+    }
+  
+    .btn {
+      @include button(1.3rem);
+      padding: 10px 36px;
+      letter-spacing: 1.2px;
+      margin-top: 24px;
+    }
+  
+    #enquiry-form {
+      max-width: 237px;
+    }
+  
+    #copyright {
+      background: #1a1a1a;
+      padding: 54px 0 34px 0;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.3rem;
+      color: #fff;
+      text-align: center;
+      color: #7f7f7f;
+    }
+  }

@@ -1,0 +1,26 @@
+#special-offer {
+    padding: 66px 0 54px 0;
+    background: #e2e2e2;
+    color: #494949;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  
+    button.btn {
+      @include button(1.3rem);
+      padding: 10px 36px;
+      letter-spacing: 1.2px;
+      margin-left: 35px;
+  
+      &:hover {
+        background: #37c3a8;
+      }
+    }
+  
+    p {
+      font-family: "Montserrat", sans-serif;
+      display: inline;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }

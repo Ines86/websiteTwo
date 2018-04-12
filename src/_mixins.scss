@@ -1,0 +1,11 @@
+@mixin button($font-size) {
+    font-size: $font-size;
+    background: #1a9bdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1.2px;
+    transition: 0.4s;
+  }

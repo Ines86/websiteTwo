@@ -1,0 +1,92 @@
+
+#how-we-work {
+    padding: 95px 0;
+  
+    img {
+      margin: 50px 0 37px 0;
+    }
+  
+    #work-btn {
+      @include button(1.3rem);
+      padding: 10px 23px;
+      letter-spacing: 1.6px;
+      margin: 0 auto;
+  
+      &:hover {
+        background: #37c3a8;
+      }
+    }
+  
+    h2 {
+      font-size: 4.5rem;
+      margin-bottom: 30px;
+      color: #494949;
+    }
+  
+    h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      font-weight: 500;
+      color: #787877;
+    }
+  
+    h5 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #0087be;
+      margin-bottom: 26px;
+    }
+  
+    p {
+      line-height: 1.7;
+      color: #6f6f6e;
+      width: 85%;
+    }
+  
+    #our-creative {
+      p {
+        width: 100%;
+        margin-bottom: 41px;
+      }
+      .card {
+        border: none;
+        margin-bottom: 12px;
+      }
+      .card-header {
+        background: #e2e2e2;
+        border-radius: 30px;
+        border: none;
+        padding: 0.55rem 1.25rem;
+      }
+  
+      .fa-stack {
+        display: inline;
+      }
+  
+      .fa-play {
+        padding-left: 12px;
+        color: #0087be;
+        line-height: 3;
+      }
+  
+      .fa-circle {
+        color: #fff;
+        font-size: 40px;
+      }
+  
+      .card-body {
+        font-size: 1.6rem;
+        font-family: "Open Sans", sans-serif;
+        padding: 12px 0 42px 0;
+      }
+  
+      button {
+        color: #494949;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 66px;
+      }
+    }
+  }

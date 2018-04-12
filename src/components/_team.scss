@@ -1,0 +1,49 @@
+#our-team {
+    padding: 147px 0 137px 0;
+    background: #fff;
+    text-align: center;
+  
+    h2 {
+      color: #494949;
+      font-size: 4.5rem;
+      margin-bottom: 44px;
+    }
+  
+    p {
+      line-height: 1.7;
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .doctor {
+      img {
+        margin: 84px 0 25px 0;
+      }
+  
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 17px;
+      }
+  
+      h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 34px;
+      }
+  
+      ul {
+        display: flex;
+        color: #0087be;
+        font-size: 2.9rem;
+        justify-content: center;
+        padding: 0;
+  
+        li {
+          list-style-type: none;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
