@@ -1,6 +1,6 @@
 
 # Website Template (PSD to HTML/CSS3)
-**[Demo](https://ines86.github.io/websiteTwo/)**
+**[Demo](https://upbeat-villani-ea56cf.netlify.com)**
 
 ![alt text](https://github.com/Ines86/websiteTwo/blob/master/public/img/screenshot.jpg "Screenshot")
 
